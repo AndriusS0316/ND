@@ -9,6 +9,8 @@ const gimimoMenesis = document.querySelector("#gimimoMenesis");
 const gimimoDiena = document.querySelector("#gimimoDiena");
 const alga = document.querySelector("#alga");
 
+
+
 function parodytiZmones() {
     const list = getZmones();
     const div = document.getElementById("sarasas");
@@ -21,6 +23,16 @@ function parodytiZmones() {
 };
 
 function pateiktiClick() {
+    addZmogus(zmogus) {
+        zmogus {
+            zmogus.vardas = vardas.value,
+            zmogus.pavarde = pavarde.value,
+            zmogus.gimimoData = gimimoMatai.value + "-" + gimimoMenesis.value + "-" + gimimoDiena.value,
+            zmogus.alga = alga.value
+        }
+        
+    }
+
     vardas.value = '';
     pavarde.value = '';
     gimimoMatai.value = '';
