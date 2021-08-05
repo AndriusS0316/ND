@@ -1,6 +1,3 @@
-
-
-
 let nextId = 4;
 const zmones = [
     {
@@ -76,8 +73,5 @@ function deleteZmogus(id) {
 }
 
 function getZmogus(id) {
-    return = zmones.find(z => z.id === id);
-    }
+    return zmones.find(z => z.id === id);
 }
-
-// export { zmones }
