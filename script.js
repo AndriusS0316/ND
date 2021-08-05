@@ -1,4 +1,4 @@
-
+// import { zmones } from "./zmones.js";
 
 const pateikti = document.querySelector(".pateikti");
 const delete1 = document.querySelector(".delete");
@@ -56,3 +56,4 @@ function IstrintiClick() {
 
 pateikti.addEventListener('click', pateiktiClick);
 delete1.addEventListener('click', IstrintiClick);
+

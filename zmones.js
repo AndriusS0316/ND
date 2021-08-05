@@ -1,3 +1,6 @@
+
+
+
 let nextId = 4;
 const zmones = [
     {
@@ -78,3 +81,5 @@ function getZmogus(id) {
         return zmones[index];
     }
 }
+
+// export { zmones }
