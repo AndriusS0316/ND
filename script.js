@@ -51,7 +51,7 @@ function pateiktiClick() {
 }
 
 function IstrintiClick() {
-
+    nextId -= 1;
 }
 
 pateikti.addEventListener('click', pateiktiClick);
